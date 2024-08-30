@@ -1,0 +1,75 @@
+.underline-text{
+    width: 300px;            
+    padding: 10px 0;           
+    border: none;               
+    border-bottom: 2px solid #333; 
+    font-size: 16px;          
+    outline: none;           
+    background: none;   
+    color: white;
+}
+
+.underline-text::placeholder {
+    color: white;             
+    font-style: italic;         
+}
+
+.signin-form{
+    border: none;
+    box-shadow: 1px 5px 8px 6px rgba(255, 251, 251, 0.2);
+    padding: 55px;
+    margin-top: 150px;
+    margin-right: 500px;
+    margin-left: 500px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.error{
+    color: red;
+}
+
+.signin-btn{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.signin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-photo/cup-coffee-coffee-beans-table-dark-background_175390-330.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 135px;
+}
+
+.underline-text input::placeholder{
+    color: white;
+}
+
+.Login{
+    color: white;
+    font-family: cursive;
+}
+
+.para{
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

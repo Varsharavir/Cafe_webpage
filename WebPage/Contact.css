@@ -1,0 +1,77 @@
+.form{
+    display: flex;
+    border: none;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.268);
+    padding: 55px;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    box-shadow: 2px 4px 8px 2px rgba(255, 255, 255, 0.658);
+  }
+  
+  .text-box{
+    width: 550px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.268);
+  }
+  
+  .text-feed{
+    width: 550px;
+    height: 70px ;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.268);
+  }
+  
+  .form-btn{
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.268);
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+  
+  }
+  
+  .contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+    justify-content: space-evenly;
+  }
+  
+  .contact img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 2px 4px 5px rgba(0, 0, 0, 0.268) ;
+  }
+
+  .contact-form{
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231103/pngtree-elegant-coffee-cups-against-a-backdrop-of-black-textured-wallpaper-image_13763663.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .contact-heading{
+    font-family: cursive;
+    color: white;
+  }
+
+  .contact-para{
+    color: white;
+    font-size: 20px;
+  }
